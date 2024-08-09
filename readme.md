@@ -30,9 +30,9 @@ gister create --username mateothegreat \
 
 ## Commands
 
-| Command | Description       |
-| ------- | ----------------- |
-| create  | Create a new gist |
-| list    | List all gists    |
-| delete  | Delete a gist     |
-| update  | Update a gist     |
+| Command       | Description       |
+| ------------- | ----------------- |
+| create        | Create a new gist |
+| list  (todo)  | List all gists    |
+| delete (todo) | Delete a gist     |
+| update (todo) | Update a gist     |
