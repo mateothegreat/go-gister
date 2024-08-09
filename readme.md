@@ -19,6 +19,8 @@ go install github.com/mateothegreat/gister
 
 ## Usage
 
+Your GitHub token is required to create a gist. You can create a token [here](https://github.com/settings/tokens) and set it as the `GITHUB_TOKEN` environment variable or pass it as the `--token` flag.
+
 ```bash
 gister create --username mateothegreat \
               --description "Kubernetes Infra Stack" \
