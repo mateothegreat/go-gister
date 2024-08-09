@@ -11,13 +11,19 @@ CLI tool to create and manage GitHub gists.
 
 Example gist created from 18 files in the `services` directory of the [nvr.ai](https://nvr.ai) repository is at <https://gist.github.com/mateothegreat/f4a09f9e44d4f15723bf283d8e4947c6>
 
+## Installation
+
+```bash
+go install github.com/mateothegreat/gister
+```
+
 ## Usage
 
 ```bash
-create --username mateothegreat \
-       --description "Kubernetes Infra Stack" \
-       --token $GITHUB_TOKEN \
-       --path /Users/matthewdavis/workspace/nvr.ai/infra/services
+gister create --username mateothegreat \
+              --description "Kubernetes Infra Stack" \
+              --token $GITHUB_TOKEN \
+              --path /Users/matthewdavis/workspace/nvr.ai/infra/services
 ```
 
 ## Commands

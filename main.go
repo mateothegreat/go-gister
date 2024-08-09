@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/mateothegreat/go-gister/commands"
+	"github.com/mateothegreat/gister/commands"
 	"github.com/spf13/cobra"
 )
 

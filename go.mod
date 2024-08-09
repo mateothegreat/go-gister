@@ -1,4 +1,4 @@
-module github.com/mateothegreat/go-gister
+module github.com/mateothegreat/gister
 
 go 1.22.0
 
