@@ -2,7 +2,7 @@
 
 CLI tool to create and manage GitHub gists.
 
-![alt text](Cursor-000199.png)
+![alt text](screenshot.png)
 
 - 🚀Create a gist from a directory recursively.
 - 🔍 Search for a gist by description, filename, or file content.
