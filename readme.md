@@ -14,7 +14,7 @@ Example gist created from 18 files in the `services` directory of the [nvr.ai](h
 ## Installation
 
 ```bash
-go install github.com/mateothegreat/gister
+go install github.com/mateothegreat/gister@latest
 ```
 
 ## Usage
@@ -27,6 +27,8 @@ gister create --username mateothegreat \
               --token $GITHUB_TOKEN \
               --path /Users/matthewdavis/workspace/nvr.ai/infra/services
 ```
+
+> If you have a `GITHUB_TOKEN` environment variable set, you can omit the `--token` flag 😉
 
 ## Commands
 
